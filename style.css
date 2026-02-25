@@ -110,12 +110,6 @@ body {
   margin: auto;
 }
 
-.logo-text {
-  font-size: 1.75rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
 /* Main Content */
 .hero-section {
   display: flex;
