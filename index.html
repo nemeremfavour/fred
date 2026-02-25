@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fred - Smart Campus Assistant</title>
+  <meta name="description" content="Subscribe for product updates, campus productivity tips, and news from Fred.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="background-elements">
+    <div class="glow-orb top-left"></div>
+    <div class="glow-orb bottom-right"></div>
+  </div>
+
+  <div class="container">
+    <header class="logo">
+      <a href="http://usefred.xyz/"><img src="fred.png" alt="Fred Logo" class="logo-svg"></a>
+    </header>
+
+    <main class="hero-section">
+      <div class="badge">New Feature Updates Coming Soon ✨</div>
+      <h1 class="headline">
+        The smart way to <br> <span class="highlight">navigate campus life</span>
+      </h1>
+      <p class="subheadline">
+        Join our newsletter for exclusive product updates, campus productivity tips, and essential news from Fred.
+      </p>
+
+      <form id="newsletter-form" class="newsletter-form" novalidate>
+        <div class="input-group">
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required
+            autocomplete="email">
+          <button type="submit" class="cta-button" id="submit-btn" aria-label="Subscribe to newsletter">
+            <span class="btn-text">Get Campus Updates</span>
+            <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+        <div id="form-message" class="form-message" role="alert" aria-live="polite"></div>
+      </form>
+
+      <div class="social-proof">
+        <div class="avatars">
+          <img src="https://i.pravatar.cc/100?img=47" alt="Student avatar" class="avatar">
+          <img src="https://i.pravatar.cc/100?img=12" alt="Student avatar" class="avatar">
+          <img src="https://i.pravatar.cc/100?img=33" alt="Lecturer avatar" class="avatar">
+          <img src="https://i.pravatar.cc/100?img=45" alt="Student avatar" class="avatar">
+          <div class="avatar more">+</div>
+        </div>
+        <p class="proof-text">
+          Join <strong>500+ students and lecturers</strong> already saving time with Fred.
+        </p>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
